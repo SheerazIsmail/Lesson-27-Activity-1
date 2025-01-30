@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+             Array & sorting
+        </title>
+    </head>
+    <body style="background-color: aquamarine;">
+        <center>
+          <h2 style="background-color: aqua;"> Java script Array-- Sort and Reverse</h2> 
+          <p style="background-color: aqua;"> Click the button to sort and reverse the array.</p> 
+          <button style="background-color: aqua;" onclick="sortfunction()"> Sort me</button>
+          <br>
+          <button style="background-color: aqua;" onclick="reversefunction()"> Revrse Me </button>
+          <p id="result"></p>
+
+          <script>
+             var colors = [ " Green" , "Red", "Blue", "Black", "Pink"];
+
+             document.getElementById("result").innerHTML = colors;
+             function sortfunction() {
+
+                colors.spot();
+                document.getElementById("result").innerHTML = colors;
+             }
+
+             function reversefunction() {
+
+                colors.reverse();
+                document.getElementById("result").innerHTML = colors;
+             }
+
+          </script>
+        </center>
+    </body>
+</html>
